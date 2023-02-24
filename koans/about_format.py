@@ -34,7 +34,7 @@ def test_format_named():
 
     person = {'name': 'John Smith', 'place': 'NY'}
     str1 = 'name: {name}, city: {place}'.format(**person)
-    assert str1 == 'name': 'John Smith', 'city': 'NY'
+    assert str1 == 'name': 'John Smith', 'place': 'NY'
 
 
 def test_format_attributes():
