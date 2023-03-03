@@ -34,7 +34,7 @@ def test_not_in_if():
         или истиное в ложное
     """
     a = "" 
-    if not False:
+    if not a:
         a = True
     else:
         a = False
@@ -71,9 +71,9 @@ def test_elif_and_else():
         Исследуем работу else 
         необходимо заполнить условия возле if и elif чтобы сработал else
     """
-    if (3 > 2) == None:
+    if (3 > 2) == True:
         a = None
-    elif 3 > 2 == 0:
+    elif 3 > 2 == False:
         a = None
     else:
         a = True
@@ -86,5 +86,5 @@ def test_logic():
     """
     names = ['Вова', 'Леша', 'Лена', 'Света']
     name = "Вова"
-    if name in names:
+    if __ in ____:
         assert True
